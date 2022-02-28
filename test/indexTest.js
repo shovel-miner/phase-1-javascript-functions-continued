@@ -23,7 +23,7 @@ describe("index.js", () => {
     })
 
     it("permits the default activity to be overriden", function() {
-      expect(mondayWork("work from home")).to.equal("This Monday, I will work from home.")
+      expect(mondayWork("work from home.")).to.equal("This Monday, I will work from home.")
     })
   })
 
